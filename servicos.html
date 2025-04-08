@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Serviços - Projeto 1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="servicos.html" class="active">Serviços</a></li>
+        <li><a href="quem-somos.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h1>Nossos Serviços</h1>
+      <p>Conheça as soluções que oferecemos para atender às suas necessidades.</p>
+      <button class="quote-button">Fazer Orçamento</button>
+    </section>
+    <section class="services">
+      <div class="service-item">
+        <h2>Consultoria</h2>
+        <p>Oferecemos uma equipe de designers para te ajudar com a estética do seu produto.</p>
+      </div>
+      <div class="service-item">
+        <h2>Desenvolvimento</h2>
+        <p>Desenvolvemos com os melhores produtores e te entregamos rascunhos para que você também acompanhe o desenvolvimento.</p>
+      </div>
+      <div class="service-item">
+        <h2>Suporte Técnico</h2>
+        <p>Garantimos suporte técnico de qualidade para manter tudo funcionando.</p>
+      </div>
+    </section>
+    <section class="superman-theme">    
+      <img src="superman-logo.png" alt="Logo do Superman">
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Projeto 1. Todos os direitos reservados.</p>
+  </footer>
+  <style>
+
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+      background: #f9f9f9;
+    }
+
+
+    header {
+      background: linear-gradient(135deg, #007BFF, #0056b3);
+      color: #fff;
+      padding: 1rem 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s, transform 0.3s;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+      color: #ffeb3b;
+      transform: scale(1.1);
+    }
+
+
+    .hero {
+      text-align: center;
+      padding: 4rem 1rem;
+      background: linear-gradient(45deg, #f4f4f4, #e9ecef);
+      margin-bottom: 2rem;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .hero .quote-button {
+      background-color: #ff0000;
+      color: #fff;
+      border: none;
+      padding: 0.8rem 2rem;
+      font-size: 1.1rem;
+      cursor: pointer;
+      border-radius: 50px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .hero .quote-button:hover {
+      background-color: #cc0000;
+      transform: translateY(-3px);
+    }
+
+
+    .services {
+      display: flex;
+      justify-content: space-around;
+      padding: 2rem 1rem;
+      background: #fff;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .service-item {
+      flex: 1 1 300px;
+      padding: 1.5rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s, box-shadow 0.3s;
+      background: #fff;
+      text-align: center;
+    }
+
+    .service-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .service-item h2 {
+      margin-bottom: 0.75rem;
+      color: #007BFF;
+    }
+
+    .service-item p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .superman-theme {
+      text-align: center;
+    }
+.superman-theme img {
+  width: 150px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.superman-theme img:hover {
+  transform: scale(1.2) rotate(10deg);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+      
