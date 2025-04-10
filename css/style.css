@@ -16,7 +16,7 @@ body {
     color: white;
     text-align: center;
     justify-content: center;
-    background-image: url('/Projeto-1/assets/comicbook__bg.jpeg');
+    background-image: url('../assets/comicbook__bg.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
